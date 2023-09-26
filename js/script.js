@@ -8,10 +8,9 @@ function typeText(elemento) {
             elemento.innerHTML += letra
         }, 75 * i);
     });
-    console.log(textArray)
 }
 
 const title = document.querySelector("h1");
-
+typeText(title);
 
 
